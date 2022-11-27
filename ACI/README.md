@@ -1,6 +1,8 @@
 # Azure Container Instances (ACI)
 
 1. Login to Azure Cloud Shell
+- If needed check the persistent storage associated with Cloud Shell, switch to PowerShell instead of Bash and run: ```Get-CloudDrive```
+- To update persistent storage and/or file-share: ```Dismount-CloudDrive``` and configure interactively
 2. ```git clone https://github.com/Azure-Samples/aci-helloworld.git```
 3. ```cd aci-helloworld```
 4. Open built-in VS code: ```code .```
